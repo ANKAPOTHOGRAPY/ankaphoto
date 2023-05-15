@@ -11,11 +11,11 @@ header{
         justify-content: space-between;
         padding: 20px;
 
-        .headerLeft p{
+        .navLeft p{
             font-size: 32px;
         }
 
-        .headerRight{
+        .navRight{
             font-size: 20px;
             font-weight: 500;
             ul{
@@ -42,10 +42,10 @@ header{
         nav{
             height: 162px;
 
-            .headerLeft p{
+            .navLeft p{
                 font-size: 64px;
             }
-            .headerRight{
+            .navRight{
                 font-size: 40px;
             }
         }

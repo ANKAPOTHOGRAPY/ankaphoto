@@ -6,10 +6,10 @@ function Header() {
   return (
     <header>
       <nav>
-        <div className="headerLeft">
+        <div className="navLeft">
           <p>Andrea Araujo</p>
         </div>
-        <div className="headerRight">
+        <div className="navRight">
           <ul>
             <li><a href="">Sesiones</a></li>
             <li><a href="">Precios</a></li>
