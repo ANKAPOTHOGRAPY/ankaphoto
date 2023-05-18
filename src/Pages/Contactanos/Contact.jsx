@@ -1,8 +1,12 @@
 import React from "react";
+import { Header } from '../../components/Navegacion/Header';
 
 function Contact(){
     return(
-        <h1>Contactanos</h1>
+        <>
+            <Header />
+            <h1>Contactanos</h1>
+        </>
     );
 }
 export {Contact}

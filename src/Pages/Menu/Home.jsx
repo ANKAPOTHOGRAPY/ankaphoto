@@ -1,9 +1,14 @@
 import React from 'react';
-import './Home.scss'
+import './Home.scss';
+import { Header } from '../../components/Navegacion/Header';
+
 
 function Home() {
   return (
-    <h1>Inicio</h1>
+    <>
+      <Header />
+      <h1>Inicio</h1>
+    </>
   );
 }
 

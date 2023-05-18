@@ -1,8 +1,13 @@
 import React from "react";
+import { Header } from '../../components/Navegacion/Header';
 
 function Sessions() {
     return(
-        <h1>Sesiones</h1>
+        <>
+            <Header />
+            <h1>Sesiones</h1>
+        </>
+        
     );
 }
 

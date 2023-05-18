@@ -1,8 +1,13 @@
 import React from "react";
+import { Header } from '../../components/Navegacion/Header';
 
 function Price(){
     return(
-        <h1>Price</h1>
+        <>
+            <Header />
+            <h1>Price</h1>
+        </>
+        
     );
 }
 export {Price}
