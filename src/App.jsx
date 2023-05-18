@@ -1,15 +1,9 @@
-import { useState } from 'react'
-import { Header } from './components/Header/Header'
-import './App.scss'
+import React from 'react';
+import { AppRouter } from './Routers/Router';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="main">
-      <Header />
-    </div> 
-  )
+  return <AppRouter />;
 }
 
-export default App
+export default  App;

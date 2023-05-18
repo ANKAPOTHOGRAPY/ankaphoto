@@ -1,4 +1,4 @@
-@import '../../Fonts/Font.scss';
+@import '../../fonts/Font.scss';
 
 header{
     nav{
@@ -11,23 +11,23 @@ header{
         justify-content: space-between;
         padding: 20px;
 
-        .navLeft p{
-            font-size: 32px;
+        .navLeft{
+            p{
+                font-size: 32px;
+            }
+
+            .logo{
+                text-decoration: none;
+                color: white;
+            }
+                        
         }
 
         .navRight{
             font-size: 20px;
             font-weight: 500;
-            ul{
-                display: flex;
-                list-style: none;
-            }
-
-            li{
+            .nav{
                 margin-right: 20px;
-            }
-
-            a{
                 text-decoration: none;
                 color: white;
             }
