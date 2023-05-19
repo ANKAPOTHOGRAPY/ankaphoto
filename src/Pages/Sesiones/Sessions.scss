@@ -1,0 +1,35 @@
+@import '../../fonts/Font.scss';
+
+.containerSessions{
+    background: linear-gradient(180deg, rgba(33, 231, 183, 0.83) 18.65%, rgba(146, 109, 252, 0.97) 100%);
+
+    .sessions {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 100px;
+        
+      
+        .Item1,
+        .Item2,
+        .Item3,
+        .Item4 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      
+          p {
+            font-size: 50px;
+            margin-bottom: 10px;
+          }
+      
+          img {
+            width: 100%;
+            
+          }
+        }
+      }
+}
+
