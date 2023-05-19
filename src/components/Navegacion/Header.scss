@@ -2,6 +2,8 @@
 
 header{
     nav{
+        position: relative;
+        z-index: 100;
         width: 100%;
         height: 81px;
         color: white;
@@ -9,7 +11,8 @@ header{
         align-items: center;
         justify-content: space-between;
         padding: 20px;
-        position: relative;
+        
+        
 
         .navLeft{
             p{

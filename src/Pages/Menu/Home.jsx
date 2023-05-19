@@ -24,7 +24,7 @@ function Home() {
             economico. Contratanos ya para tus eventos.</p>
 
             <div className='Button'>
-              <Link className='btnSessions'>Pide tu sesión ya</Link>
+              <Link to='/precio' className='btnSessions'>Pide tu sesión ya</Link>
               <Link className='btnIndormation'>Ver más</Link>
             </div>
         </div>
