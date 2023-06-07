@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import { Header } from '../../components/Navegacion/Header';
+import { About } from '../../components/Description/About';
 import image from '../../../public/Fondo.svg';
 import LogoMain from '../../../public/logoMain.svg';
 import { Link } from 'react-router-dom';
@@ -33,6 +34,7 @@ function Home() {
         </div>
       </div>
       
+      <About />
 
 
     </>

@@ -1,0 +1,34 @@
+.containerAbout{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #6000AB;
+    color: white;
+
+    .right{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 50%;
+            height: 70%;
+        }
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        padding: 3rem;
+        
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
