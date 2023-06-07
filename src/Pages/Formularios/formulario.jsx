@@ -12,7 +12,6 @@ function formulario() {
       <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre" required></input>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required></input>
-  
       <label for="telefono">Teléfono:</label>
       <input type="tel" id="telefono" name="telefono" required></input>
   
