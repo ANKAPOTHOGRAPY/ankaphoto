@@ -14,32 +14,39 @@ function Price(){
             <div className="containerPrice">
                 <h1>Precios</h1>
 
-                <p className="descriParrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="descriParrafo">Acontinuación podras agendar cualquiera de nuestros planes para una sesión fotografica, por favor elige el que mas se adapte a tu necesidad u evento.</p>
                  <div className="containerPrices">
                     <div className="price Espress">
-                        <a href="/">Express</a>
-                        <h4>$50.000</h4>
+                        <a href="/">Sesión Básica</a>
+                        <h4>$80.000</h4>
                         <p>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Duración de la sesión: 1 hora</li>
+                            <li>Entrega de 15 fotografías digitales en alta resolución.</li>
+                            <li>Edición básica de las imágenes seleccionadas.</li>
+                            <li>Galería en línea privada para ver y compartir las fotos.</li>
+                           
                         </p>
                         <a href="/" className="BtnAgendar">Agendar</a>
                     </div>
                     <div className="price Foto">
-                        <a href="/">Solo fotos</a>
-                        <h4>$150.000</h4>
+                        <a href="/">Sesión Premium</a>
+                        <h4>$200.000</h4>
                         <p>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Duración de la sesión: 2 hora</li>
+                            <li>Entrega de 30 fotografías digitales en alta resolución.</li>
+                            <li>Edición profesional de las imágenes seleccionadas.</li>
+                            <li>Galería en línea privada para ver y compartir las fotos.</li>
                         </p>
                         <a href="/" className="BtnAgendar">Agendar</a>
                     </div>
                     <div className="price Digital">
-                        <a href="/">100% digital</a>
-                        <h4>$250.000</h4>
+                        <a href="/">Sesión de Evento Especial</a>
+                        <h4>$350.000</h4>
                         <p>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Cobertura del evento durante un tiempo específico acordado.</li>
+                            <li>Fotografía ilimitada durante el evento.</li>
+                            <li>Entrega de fotografías digitales en alta resolución.</li>
+                            <li>Edición profesional de las imágenes seleccionadas.</li>
                         </p>
                         <a href="/" className="BtnAgendar">Agendar</a>
                     </div>
