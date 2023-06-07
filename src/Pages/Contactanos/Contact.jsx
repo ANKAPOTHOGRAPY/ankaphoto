@@ -1,11 +1,16 @@
 import React from "react";
 import { Header } from '../../components/Navegacion/Header';
+import Fondo from '../../../public/fondoContac.svg';
 
 function Contact(){
+   
     return(
         <>
-            <Header />
-            <h1>Contactanos</h1>
+            <div className="wallpaper">
+                <img src={Fondo} alt="Fondo" />
+            </div>
+            <Header className='header' />
+            
         </>
     );
 }
