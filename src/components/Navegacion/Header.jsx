@@ -19,7 +19,7 @@ function Header() {
             <NavLink to="/sesiones" className="nav" style={{ color: isContactanosRoute ? 'black' : 'inherit' }} >Sesiones</NavLink>
             <NavLink to="/precio" className="nav" style={{ color: isContactanosRoute ? 'black' : 'inherit' }}>Precios</NavLink>
             <NavLink to="/contactanos" className="nav" style={{ color: isContactanosRoute ? 'black' : 'inherit' }}>Contactanos</NavLink>
-            <NavLink to="#" className="nav" style={{ color: isContactanosRoute ? 'black' : 'inherit' }}>Sobre mì</NavLink>
+            <NavLink to="/" className="nav" style={{ color: isContactanosRoute ? 'black' : 'inherit' }}>Sobre mì</NavLink>
             
           </ul>
         </div>

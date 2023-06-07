@@ -34,12 +34,16 @@
             text-align: justify;
         }
         .button{
-            margin-top: 20px;
-            padding: 15px 15px;
-            border-radius: 18px;
-            color: rgb(255, 255, 255); 
-            margin-right: 30px;
-            background-color: #6000AB;
+            
+            .btn{
+                padding: 12px 10px;
+                border-radius: 18px;
+                list-style: none;
+                text-decoration: none;
+                color: white; 
+                margin-right: 30px;
+                background-color: #6000AB;
+            }
         }
         .button:hover{
             background-color: #9226E7;
