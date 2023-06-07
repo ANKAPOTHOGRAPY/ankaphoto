@@ -2,6 +2,8 @@ import React from "react";
 import '../Precio/Price.scss';
 import { Header } from '../../components/Navegacion/Header';
 import Fondo from '../../../public/fondoPrice.svg';
+import { Link } from "react-router-dom";
+import { formulario } from "../Formularios/formulario";
 
 function Price(){
     return(
@@ -26,7 +28,7 @@ function Price(){
                             <li>Galería en línea privada para ver y compartir las fotos.</li>
                            
                         </p>
-                        <a href="/" className="BtnAgendar">Agendar</a>
+                        <Link to= '/formulario' className="BtnAgendar">Agendar</Link>
                     </div>
                     <div className="price Foto">
                         <a href="/">Sesión Premium</a>
@@ -37,7 +39,7 @@ function Price(){
                             <li>Edición profesional de las imágenes seleccionadas.</li>
                             <li>Galería en línea privada para ver y compartir las fotos.</li>
                         </p>
-                        <a href="/" className="BtnAgendar">Agendar</a>
+                        <Link to= '/formulario' className="BtnAgendar">Agendar</Link>
                     </div>
                     <div className="price Digital">
                         <a href="/">Sesión de Evento Especial</a>
@@ -48,7 +50,7 @@ function Price(){
                             <li>Entrega de fotografías digitales en alta resolución.</li>
                             <li>Edición profesional de las imágenes seleccionadas.</li>
                         </p>
-                        <a href="/" className="BtnAgendar">Agendar</a>
+                        <Link to= '/formulario' className="BtnAgendar">Agendar</Link>
                     </div>
                  </div>
             </div>
