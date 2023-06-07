@@ -12,7 +12,7 @@ function Header() {
     <header>
       <nav>
         <div className="navLeft">
-          <Link to="/" className='logo'><p>Andrea Araujo</p></Link>
+          <Link to="/" className='logo'><p style={{ color: isContactanosRoute ? 'black' : 'inherit' }} >Andrea Araujo</p></Link>
         </div>
         <div className="navRight" >
           <ul >
