@@ -7,7 +7,7 @@ function Contact(){
    
     return(
         <>
-            <div className="wallpaper">
+            <div className="wallpaper fondocontact">
                 <img src={Fondo} alt="Fondo" />
             </div>
             <Header/>
@@ -19,19 +19,26 @@ function Contact(){
                     <h3>Contactame</h3>
                     <p>Si deseas mas información de mi pagina, llena el siguiente formulario y con el mayor de los gustos responderé cualquier inquietud que tengas.</p>
                     <form >
-                        <label htmlFor="name">Nombre</label>
-                        <input type="text" id="name" name="name" placeholder="Ingrese su nombre"/>
+                        <div className="nameApellido">
+                            <label htmlFor="name">Nombre:</label>
+                            <input type="text" id="name" className="nameInput Input1" name="name" />
 
-                        <label htmlFor="Apellido">Apellido</label>
-                        <input type="text" id="Apellido" name="Apellido" placeholder="Ingrese su Apellido"/>
+                            <label htmlFor="Apellido">Apellido:</label>
+                            <input type="text" id="Apellido" className="nameInput" name="Apellido" />
+                        </div>
+                        
+                        <div className="emial">
+                            <label htmlFor="email">Email:</label>
+                            <input type="email" id="email" className="emailInput" name="email" />
+                        </div>
+                        
 
-                        <label htmlFor="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Ingrese su correo electrònico"/>
-
-                        <label htmlFor="mensaje">Mensaje</label>
-                        <input type="text" id="mensaje" name="mensaje" />
-
-                        <input type="button" value="Enviar" />
+                        <label htmlFor="mensaje" className="mensaje">Mensaje</label>
+                        <input type="text" id="mensaje" className="mensajeInput" name="mensaje" />
+                        <div className="Button">
+                            <input type="button"  value="Enviar" />
+                        </div>
+                        
                     </form>
                     
                 </div>
